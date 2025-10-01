@@ -28,7 +28,7 @@ const Sports = () => {
     <section id="sports" className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12 text-foreground">
-          Sports & Achievements
+          Sports Activities
         </h2>
 
         {/* Sports Photos */}
@@ -49,7 +49,7 @@ const Sports = () => {
           </div>
         </div>
 
-        {/* Achievements */}
+        {/* Sports Activities */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {achievements.map((achievement, index) => {
             const Icon = achievement.icon;

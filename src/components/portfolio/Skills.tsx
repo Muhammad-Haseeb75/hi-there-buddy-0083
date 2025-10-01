@@ -2,12 +2,13 @@ import { Code2, Database, Palette, Smartphone, Terminal, BrainCircuit } from 'lu
 
 const Skills = () => {
   const skills = [
-    { name: 'HTML', icon: Code2, level: 90 },
-    { name: 'CSS', icon: Palette, level: 85 },
-    { name: 'JavaScript', icon: Terminal, level: 80 },
     { name: 'C++', icon: Code2, level: 85 },
-    { name: 'Flutter', icon: Smartphone, level: 75 },
-    { name: 'Data Structures & Algorithms', icon: BrainCircuit, level: 80 },
+    { name: 'HTML', icon: Code2, level: 45 },
+    { name: 'CSS', icon: Palette, level: 40 },
+    { name: 'JavaScript', icon: Terminal, level: 35 },
+    { name: 'Python', icon: Terminal, level: 30 },
+    { name: 'Flutter', icon: Smartphone, level: 25 },
+    { name: 'Data Structures & Algorithms', icon: BrainCircuit, level: 48 },
   ];
 
   return (
