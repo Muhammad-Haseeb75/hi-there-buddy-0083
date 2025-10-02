@@ -39,7 +39,7 @@ const Hobbies = () => {
           </div>
         </div>
       </div>
-    </secti0n>
+    </section>
   );
 };
 
